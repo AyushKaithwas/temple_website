@@ -133,10 +133,11 @@ a:hover {
 
 /* Donate Button */
 .donate-btn{
+      transition: 0.1s;
   display: inline-block;
   background-color: #d14604;
   color: white;
-  padding: 15px 40px 10px 40px;
+  /* padding: 15px 40px 10px 40px; */
   border-radius: 5px;
   position: fixed;
   bottom: 0;
@@ -146,5 +147,17 @@ a:hover {
 }
 .donate-txt{
   font-size: 2rem;
+  padding: 15px 40px 10px 40px;
   margin: 0;
 }
+
+.donate-btn:hover{
+  background-color: #ffcece;
+  opacity: 1;
+}
+
+.donate-txt:hover{
+   color: #d14604;
+  font-weight: 600;
+}
+
