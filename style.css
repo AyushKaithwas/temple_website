@@ -164,13 +164,16 @@ a:hover {
 /* activities section */
 #activity{
   padding: 5rem 0px;
+  background-image: url("Images/floral-bg.png");
 }
 
 /* .row{
   
 align-items: center
 } */
-
+.col-activity{
+      margin: auto;
+}
 .sun-icon-container{
   padding-left: 6%;
 }
