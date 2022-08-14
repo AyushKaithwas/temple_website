@@ -203,12 +203,7 @@ align-items: center
   padding:0;
 }
 
-@media screen and (max-width: 768px){
-  .sun{
-    width: 10rem;
-  }
 
-}
 .activity-card{
   padding: 3px 0px;
 }
@@ -274,7 +269,11 @@ align-items: center
 }
 
 /* Reponsive Section */
-
+@media screen and (max-width: 768px){
+  .sun{
+    width: 10rem;
+  }
+}
 @media only screen and (max-width: 1400px) {
   .pattern-2 {
     right: 0%;
