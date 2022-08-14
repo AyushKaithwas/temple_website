@@ -78,6 +78,10 @@ a:hover {
   color: #ff9461;
 }
 
+.nav-item{
+  width: 10rem;
+}
+
 /* Card Section 1 */
 #card-holder {
   padding: 6% 10%;
