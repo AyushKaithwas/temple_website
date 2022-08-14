@@ -173,7 +173,7 @@ a:hover {
   }
   .video-text-underline {
     width: 100%;
-    
+
   }
   .video-text-heading{
     margin: 3rem 0 2rem;
@@ -247,12 +247,7 @@ a:hover {
   padding:0;
 }
 
-@media screen and (max-width: 768px){
-  .sun{
-    width: 10rem;
-  }
 
-}
 .activity-card{
   padding: 3px 0px;
 }
@@ -310,6 +305,8 @@ a:hover {
 
 /* Footer Lower */
 #footer-lower {
+  position: relative;
+  background-color: #e9e9e9;
   padding: 2%;
 }
 
@@ -318,16 +315,57 @@ a:hover {
 }
 
 /* Reponsive Section */
-
-@media only screen and (max-width: 1400px) {
+@media screen and (max-width: 550px){
   .pattern-2 {
-    right: 0%;
-    top: -30%;
+    display: none;
+  }
+  .pattern-1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 630px){
+  #footer-upper{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .footer-upper-heading-underline{
+    margin: 0 0 5% 0;
+  }
+}
+@media screen and (max-width: 768px){
+  .sun{
+    width: 10rem;
+  }
+  .head-text{
+    font-size: 2rem;
+    padding-bottom: 2%;
+  }
+
+  .donate-btn{
+    display: inline;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+  }
+}
+@media screen and (max-width: 1000px){
+  .head-text{
+    font-size: 2.5rem;
+    padding-bottom: 2%;
   }
 }
 @media only screen and (max-width: 1190px) {
   .pattern-1 {
     left: 0%;
     top: 65%;
+  }
+  #footer-lower {
+    z-index: 500;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .pattern-2 {
+    right: 0%;
+    top: -30%;
   }
 }
