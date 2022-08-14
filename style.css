@@ -115,6 +115,8 @@ a:hover {
   background-color: white;
 }
 
+
+
 .video-text {
   /* height: 100px;
   line-height: 100px; */
@@ -146,6 +148,22 @@ a:hover {
 
 .vertical-center {
   padding: 70px 0;
+}
+
+@media screen and (max-width: 1012px){
+  #video-section {
+     grid-template-columns: 1fr;
+  }
+  .video-text {
+    text-align: center;
+  }
+  .video-text-underline {
+    width: 100%;
+    
+  }
+  .video-text-heading{
+    margin: 3rem 0 2rem;
+  }
 }
 
 /* Donate Button */
