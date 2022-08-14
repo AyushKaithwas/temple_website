@@ -168,6 +168,7 @@ a:hover {
 .donate-txt:hover {
   color: #d14604;
   font-weight: 600;
+  cursor: pointer;
 }
 
 /* activities section */
@@ -203,13 +204,15 @@ align-items: center
   opacity: 1;
   border: 2px solid #b3b3b3;;
  } */
-.containr a{
+.containr a {
   color: black;
   line-height: 1rem;
 }
-.containr a:hover{
+
+.containr a:hover {
   color: #ff9461;
 }
+
 /* Footer Section */
 #footer-upper {
   padding: 5% 10%;
@@ -223,16 +226,19 @@ align-items: center
 #footer-upper a {
   color: #b7b7b7;
 }
+
 #footer-upper a:hover {
   color: #ff9461;
 }
-.footer-upper-heading-underline{
+
+.footer-upper-heading-underline {
   border-bottom: 2px solid;
   width: 5rem;
   opacity: 1;
   margin: 0 0 10% 0;
 }
-.footer-upper-row-line{
+
+.footer-upper-row-line {
   border-bottom: 1px solid;
   /* opacity: 1; */
   width: 80%;
@@ -240,9 +246,10 @@ align-items: center
 }
 
 /* Footer Lower */
-#footer-lower{
+#footer-lower {
   padding: 2%;
 }
-.contact-logos{
+
+.contact-logos {
   margin: 0 2% 2%;
 }
