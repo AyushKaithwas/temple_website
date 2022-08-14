@@ -75,12 +75,12 @@ a:hover {
 
 /* Card Section 1 */
 #card-holder {
-  padding: 6% 125px;
+  padding: 6% 10%;
   background-image: url("bg.png");
 }
 
 .card {
-  margin: 0 2rem;
+  margin: 0 1rem;
   padding: 1rem 10% 2rem;
   align-items: center;
   border-top: 6px solid #4D1400;
@@ -186,12 +186,26 @@ align-items: center
 }
 
 .sun-icon-container {
-  padding-left: 6%;
+  justify-content: space-around;
+  /* padding-left: 6%; */
 }
 
+.row{
+  justify-content: space-around;
+}
 .sun {
-  width: 92%;
-  padding-left: 33px;
+  width: 30rem;
+  padding:0;
+}
+
+@media screen and (max-width: 768px){
+  .sun{
+    width: 10rem;
+  }
+  
+}
+.activity-card{
+  padding: 3px 0px;
 }
 
 .activity-text {
@@ -204,7 +218,7 @@ align-items: center
   opacity: 1;
   border: 2px solid #b3b3b3;;
  } */
-.containr a {
+.container a {
   color: black;
   line-height: 1rem;
 }
