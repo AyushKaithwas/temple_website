@@ -202,7 +202,7 @@ a:hover {
   transition: 0.1s;
   display: inline-block;
   background-color: #d14604;
-  color: white;
+  
   /* padding: 15px 40px 10px 40px; */
   border-radius: 5px;
   position: fixed;
@@ -214,8 +214,9 @@ a:hover {
 
 .donate-txt {
   font-size: 2rem;
-  padding: 15px 40px 10px 40px;
+  padding: 10px 40px 5px 40px;
   margin: 0;
+  color: white;
 }
 
 .donate-btn:hover {
@@ -399,4 +400,37 @@ background: linear-gradient(207deg, rgba(77,20,0,1) 0%, rgba(129,46,3,1) 100%);
   margin: 0 10% 5%;
   line-height: 180%;
  
+}
+
+
+/* payment page */
+.payment-cont{
+margin: 5rem 10% 10rem;
+
+}
+
+.dan-text-head{
+  font-size: 2rem;
+  text-align: left;
+  font-weight: 600;
+  margin: 2% 0 0;
+}
+
+.pay-underline{
+border-bottom: 4px solid #4d1400;
+  width: 17%;
+  opacity: 1;
+}
+
+.mandir-address{
+  text-align: left;
+  font-size: 1.2rem;
+  margin: 0
+  line-height: 180%;
+ 
+}
+
+.pay-btn{
+  margin-right: 100%;
+  width: 180px;
 }
